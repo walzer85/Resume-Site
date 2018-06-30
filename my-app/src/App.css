@@ -60,4 +60,12 @@
   line-height: 1.8em;
 }
 
+.Skills {
+  text-align: center;
+  margin: 15px;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 
