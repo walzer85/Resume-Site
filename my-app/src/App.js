@@ -18,18 +18,13 @@ class App extends Component {
             </header>
             </Row>
             <Row className="Menu">
-              <Col xs className="Menu-link"><a href="#Biography">Biography</a></Col>
+              <Col xs className="Menu-link"><a href="/">Biography</a></Col>
               <Col xs className="Menu-link"><a href="#Education">Education</a></Col>
               <Col xs className="Menu-link"><a href="#Job Experience">Job Experience</a></Col>
               <Col xs className="Menu-link"><a href="#Skills">Skills</a></Col>
-              {/* Still need to decide how to handle these two portions.  Separate pages? */}
-              <Col xs className="Menu-link">Contact</Col>
-              <Col xs className="Menu-link">Media</Col>
-
             </Row>
         </Navbar>
         <Jumbotron className="Biography" id="Biography">
-        <h1>Biography</h1>
         <p>
         I am a seasoned problem solver and communicator that specializes in outreach and development of communication with clients. 
         I focus on developing strong relationships between clients and services. 
