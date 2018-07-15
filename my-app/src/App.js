@@ -25,17 +25,21 @@ class App extends Component {
             </Row>
         </Navbar>
         <Row className="Biography">
-        <Col xs><p>
-        I am a seasoned problem solver and communicator that specializes in outreach and development of communication with clients. 
-        I focus on developing strong relationships between clients and services. 
-        I have the ability to manage multiple complex projects and goals at once. 
-        I excel at designing documentation to guide long term growth for a project or service. 
-        My focus on communication has extended into my role at Bazaarvoice. 
-        I specialize in communicating between several departments and teams at a time and clarifying any information for relevance to each team.
-        </p></Col>
+        <Col xs>
+          <p>I am a web developer specializing in ReactJS and node.js applications.
+          Having recently graduated from the Austin Coding Academy, I am looking to apply my new skills to help ensure positive user experiences online.
+          </p>
+          <p>I am a seasoned problem solver and communicator that specializes in outreach and development of communication with clients. 
+          I focus on developing strong relationships between clients and services. 
+          I have the ability to manage multiple complex projects and goals at once. 
+          I excel at designing documentation to guide long term growth for a project or service. 
+          My focus on communication has extended into my role at Bazaarvoice. 
+          I specialize in communicating between several departments and teams at a time and clarifying any information for relevance to each team.
+          </p>
+        </Col>
         <Col xs><img className='Biography-image' src='https://scontent.fmkc1-1.fna.fbcdn.net/v/t31.0-8/77737_10100888227337346_1130511005_o.jpg?_nc_cat=0&oh=ef6bd12f5eec73aad001ea16d316629e&oe=5BE5DC78'/></Col>
       </Row>
-      <Row className="Section-Header">
+      <Row className="Section-Header" id='Education'>
         <Col xs><img className='Education-image' src='http://vcuarts.github.io/travel-pres/assets/images/vcuarts-logo.png' /></Col>
         <Col xs><h1>Education</h1></Col>
         <Col xs><img className='Education-image' src='https://cdn.evbuc.com/eventlogos/188084824/acastandardcirclefullname.png' /></Col>
@@ -44,10 +48,12 @@ class App extends Component {
         <p className='Education'>Full Stack Web Design  |  Austin Coding Academy  |  Austin, TX, 2017 - 2018</p>
         <p className='Education'>BA - Music Education  |  Magna Cum Laude  |  Virginia Commonwealth University  |  Richmond, Virginia, 2004 - 2008</p>
       </Row>
-      <Row className="Others" id="Job Experience">
+      <Row className="Section-Header" id="Job Experience">
+        <Col xs><img className='Education-image' src='https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_1511977970/bazaarvoice.png' /></Col>
         <Col xs><img className='Education-image' src='https://www.austinisd.org/sites/default/files/field/announcement_image/AISD_Logo_-_Newer_0.jpg' /></Col>
-        <Col className='Section-Header'><h1>Job Experience</h1></Col>
+        <Col xs><h1>Job Experience</h1></Col>
         <Col xs><img className='Education-image' src='https://www.hayscisd.net/cms/lib/TX02204837/Centricity/Template/GlobalAssets/images///logos/District%20Logo%20Small%20Shadow.png' /></Col>
+        <Col xs><img className='Lopsided-image' src='http://www.rambunctiousreaders.com/uploads/5/3/0/7/53079007/2366931_orig.png' /></Col>
       </Row>
       <Row center='xs'>
         <h4 className='Experience'>Client Care Specialist  |  Bazaarvoice  |  Austin, TX 2017 – 2018</h4>
@@ -73,11 +79,12 @@ class App extends Component {
         <h4 className='Experience'>Instrumental Music Director  |  Allen Academy  |  Bryan, Texas, 2008 - 2010</h4>
           <p className='Experience-body'>Led Upper School Band to Superior ratings in solo and ensemble categories in the Texas Association for Private and Parochial Schools Music Competition two years in a row, 3rd place overall in 2010.  Taught students of many socio-economic and cultural backgrounds, including many different learning styles.  Taught and developed new curriculum, scope, and sequence for Intro to World Music course for 9th - 12th grades.  Organized volunteer opportunities for the students with a local cultural festival.  Helped coordinate Peer Mentoring program between the Lower School and the Upper School.  Acted as Faculty Advisor to Middle School student council.  Maintained regular communication with students’ families regarding grades, behavior, etc.  Managed a growing library of recordings and literature for grades 3 – 12.  Managed budget for music purchasing, instrument purchasing/repair, and funding for school trips.</p>
       </Row>
-      <Row>
+      <Row className="Section-Header">
         <Col xs><img className='Education-image' src='https://quintagroup.com/cms/js/js-image/javascript-logo.png/image_preview' /></Col>
         <Col xs><img className='Education-image' src='https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png' /></Col>
-        <Col className='Section-Header'><h1>Skills</h1></Col>
+        <Col xs><h1>Skills</h1></Col>
         <Col xs><img className='Education-image' src='https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png' /></Col>      
+        <Col xs><img className='Education-image' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png' /></Col>      
       </Row>
       <div className="Skills" id="Skills">
         <Row>
